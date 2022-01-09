@@ -1,0 +1,46 @@
+.stats_header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  line-height: 1.148rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid #f4f4f4;
+}
+
+.stats_right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0275b1;
+}
+
+.stats_right a:hover {
+  text-decoration: underline;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.stats-bottom {
+  display: flex;
+  flex-direction: column;
+  text-transform: lowercase;
+  font-size: 1.2rem;
+}
+
+.quantity {
+  font-size: 5.2rem;
+  line-height: 5rem;
+  color: #0275b1;
+  font-weight: 500;
+}
+
+.text {
+  font-size: 1.4rem;
+  line-height: 150%;
+}

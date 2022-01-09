@@ -1,0 +1,60 @@
+.visitors_header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  line-height: 1.148rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid #f4f4f4;
+}
+
+.visitors_right a {
+  text-transform: uppercase;
+  color: #0275b1;
+  text-decoration: none;
+}
+
+.visitors_right a:hover {
+  text-decoration: underline;
+}
+
+.visitors {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.visitor {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.visitor_picture {
+  cursor: pointer;
+}
+
+.visitor_picture img {
+  width: 4.2rem;
+  height: 4.2rem;
+}
+
+.visitor_info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.visitor_name {
+  font-size: 1.4rem;
+  line-height: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.visitor_desc {
+  font-size: 1rem;
+  line-height: 150%;
+}

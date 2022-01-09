@@ -1,0 +1,12 @@
+.main-container {
+  margin: 0 auto;
+  max-width: 125rem;
+}
+
+.main {
+  display: flex;
+  gap: 4rem;
+  /* padding: 4rem 13rem 4rem 13rem; */
+  padding: 4rem;
+  transform: translateX(0.5rem);
+}

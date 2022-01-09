@@ -1,0 +1,55 @@
+.header {
+  width: 100vw;
+  background: #fff;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+  height: 8rem;
+  max-width: 144rem;
+  background: #fff;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.logo {
+  padding: 1.7rem 4.4rem 1.7rem 0rem;
+  border-right: #f4f4f4 0.1rem solid;
+}
+
+.logo img {
+  cursor: pointer;
+  width: 4.6rem;
+  height: 4.6rem;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 9rem;
+  padding: 0 1.5rem;
+  font-size: 1.6rem;
+  line-height: 1.531rem;
+  transform: translateX(-1.3rem);
+  gap: 1.1rem;
+  border-right: #f4f4f4 0.1rem solid;
+  cursor: pointer;
+}
+
+.other span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.148rem;
+  text-transform: uppercase;
+}
+
+.other svg {
+  width: 2.4rem;
+  height: 2.4rem;
+}

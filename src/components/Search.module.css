@@ -1,0 +1,30 @@
+.search_container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 36.7rem;
+  gap: 1.5rem;
+  padding: 0 3rem;
+  font-size: 1.6rem;
+  line-height: 1.531rem;
+  border-right: #f4f4f4 0.1rem solid;
+  border-left: #f4f4f4 0.1rem solid;
+}
+
+.search_container input {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.search_container input::placeholder {
+  font-weight: 300;
+}
+
+.search_container svg {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+}
