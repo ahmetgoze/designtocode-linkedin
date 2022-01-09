@@ -67,9 +67,16 @@ function App() {
       viewers: "13,858",
     },
   ];
+
+  const languages = ["English", "Turkish", "Romanian"];
   return (
     <div>
-      <ProfilePage user={user} visitors={profileVisitors} courses={courses} />
+      <ProfilePage
+        user={user}
+        visitors={profileVisitors}
+        courses={courses}
+        languages={languages}
+      />
     </div>
   );
 }
