@@ -110,6 +110,42 @@ body {
 
 @media screen and (max-width: 500px) {
   html {
-    font-size: 6x;
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 5.4px;
+  }
+}
+
+@media screen and (max-width: 366px) {
+  html {
+    font-size: 5.1px;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  html {
+    font-size: 4.8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 4.6px;
+  }
+}
+
+@media screen and (max-width: 306px) {
+  html {
+    font-size: 4.4px;
+  }
+}
+
+@media screen and (max-width: 295px) {
+  html {
+    font-size: 4.2px;
   }
 }
