@@ -1,0 +1,30 @@
+.about_content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.header {
+  font-size: 1.8rem;
+  line-height: 1.7rem;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 1.4rem;
+  line-height: 150%;
+}
+
+.link {
+  font-size: 1.2rem;
+  line-height: 1.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0275b1;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

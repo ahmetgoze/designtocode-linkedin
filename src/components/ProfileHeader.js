@@ -129,10 +129,12 @@ const ProfileHeader = ({ user }) => {
           </div>
           <div className={styles["profile-center"]}>{user.bio}</div>
           <div className={styles["profile-bottom"]}>
-            <button className={styles["main-button"]}>Contact Info</button>
-            <button
-              className={styles["side-button"]}
-            >{`${user.connections} connections`}</button>
+            <button className={styles["main-button"]}>
+              <span>Contact Info</span>
+            </button>
+            <button className={styles["side-button"]}>
+              <span>{`${user.connections} connections`}</span>
+            </button>
           </div>
         </div>
       </div>

@@ -1,0 +1,92 @@
+.project_content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.project_content .right-arrow {
+  position: absolute;
+  top: 12.8rem;
+  right: -2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.project_content .left-arrow {
+  position: absolute;
+  top: 12.8rem;
+  left: -2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.header {
+  font-size: 1.8rem;
+  line-height: 1.7rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header-right {
+  font-size: 1.8rem;
+  line-height: 1.7rem;
+  font-weight: 400;
+  color: #747474;
+}
+
+.link {
+  font-size: 1.2rem;
+  line-height: 1.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0275b1;
+  font-weight: 500;
+}
+
+.contents {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.content img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.content-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.content-info a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 150%;
+  font-weight: 500;
+  color: #181818;
+}
+
+.content-info span {
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
