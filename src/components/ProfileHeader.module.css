@@ -1,0 +1,167 @@
+.profile_header {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile_cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.profile_cover img {
+  width: 100%;
+  height: 180px;
+}
+
+.profile_cover-buttons {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.alternative-button {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0rem 1rem 3rem rgba(113, 123, 133, 0.05);
+  border-radius: 0.4rem;
+  border: none;
+  font-size: 1.2rem;
+  line-height: 1.1rem;
+  text-transform: uppercase;
+  padding: 1.3rem 1.1rem 1.2rem 1.1rem;
+  font-family: inherit;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  gap: 1rem;
+  height: 3.6rem;
+}
+
+.settings-button {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0rem 1rem 3rem rgba(113, 123, 133, 0.05);
+  border-radius: 0.4rem;
+  border: none;
+  font-size: 1.2rem;
+  line-height: 1.1rem;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.settings-button svg {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.profile_bottom-part {
+  margin-top: 13.7rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 2.5rem;
+  z-index: 10;
+}
+
+.profile_photo img {
+  width: 16rem;
+  height: 16rem;
+}
+
+.profile_info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 60rem;
+}
+
+.profile-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-name {
+  font-size: 1.8rem;
+  line-height: 1.7rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.profile-name svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.profile-location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.933rem;
+  font-size: 1.2rem;
+  line-height: 150%;
+}
+
+.profile-location svg {
+  width: 1.267rem;
+  height: 1.267rem;
+}
+
+.profile-center {
+  font-size: 1.4rem;
+  line-height: 150%;
+  max-width: 58.3rem;
+}
+
+.profile-bottom {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.main-button {
+  background: #0275b1;
+  border: 0.1rem solid #0275b1;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  line-height: 1.1rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 1.1rem 3.7rem 1rem 3.7rem;
+  font-family: inherit;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.side-button {
+  background: #ffffff;
+  border: 0.1rem solid #0275b1;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  line-height: 1.1rem;
+  text-transform: uppercase;
+  color: #0275b1;
+  padding: 1.1rem 3.7rem 1rem 3.7rem;
+  font-family: inherit;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
