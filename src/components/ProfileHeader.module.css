@@ -43,6 +43,11 @@
   height: 3.6rem;
 }
 
+.alternative-button svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
 .settings-button {
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 0rem 1rem 3rem rgba(113, 123, 133, 0.05);

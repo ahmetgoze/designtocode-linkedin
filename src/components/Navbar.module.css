@@ -20,6 +20,12 @@
   border-right: #f4f4f4 0.1rem solid;
 }
 
+@media screen and (max-width: 410px) {
+  .logo {
+    flex: 1;
+  }
+}
+
 .logo img {
   cursor: pointer;
   width: 4.6rem;

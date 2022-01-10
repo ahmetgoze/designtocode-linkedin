@@ -44,6 +44,28 @@
   width: 25rem;
 }
 
+@media screen and (max-width: 410px) {
+  .contents {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: #ffffff;
+    border: 0.1rem solid #f4f4f4;
+    box-sizing: border-box;
+    border-radius: 0.6rem;
+    padding: 1.4rem 2rem;
+    width: 100%;
+  }
+}
+
 .content-info {
   display: flex;
   justify-content: space-between;
@@ -62,4 +84,9 @@
   line-height: 150%;
   color: #0275b1;
   font-weight: bold;
+}
+
+.bottom img {
+  height: 2.4rem;
+  width: auto;
 }
