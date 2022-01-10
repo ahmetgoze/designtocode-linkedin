@@ -10,7 +10,7 @@ const ProfilePage = ({ children, user, visitors, courses, languages }) => {
     <div>
       <Navbar user={user} />
       <Main>
-        <ProfileContent />
+        <ProfileContent user={user} />
         <Sidebar user={user} visitors={visitors} courses={courses} />
       </Main>
       <Footer languages={languages} />

@@ -1,5 +1,7 @@
 import ProfilePage from "./pages/ProfilePage";
 import user1 from "./assets/user1.png";
+import user1profilepicture from "./assets/user1profilepicture.png";
+import user1cover from "./assets/user1cover.png";
 import visitor1 from "./assets/visitor1.png";
 import visitor2 from "./assets/visitor2.png";
 import visitor3 from "./assets/visitor3.png";
@@ -12,7 +14,12 @@ import course3 from "./assets/course3.png";
 function App() {
   const user = {
     picture: user1,
+    profilePicture: user1profilepicture,
     name: "Bianca Stan",
+    location: "Saint Petersburg, Russian Federation",
+    bio: "Freelance UX/UI designer, 80+ projects in web design, mobile apps  (iOS & android) and creative projects. Open to offers.",
+    profileCover: user1cover,
+    connections: "1,043",
     views: 367,
     increased: 15,
     postsViews: 15,
