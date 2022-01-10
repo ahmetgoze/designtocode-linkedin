@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/designtocode-linkedin/static/css/main.dd0f35ed.css",
+    "main.css": "/designtocode-linkedin/static/css/main.517db668.css",
     "main.js": "/designtocode-linkedin/static/js/main.6026d961.js",
     "static/media/user1cover.png": "/designtocode-linkedin/static/media/user1cover.dec910c9d158ee4e78be.png",
     "static/media/education1.png": "/designtocode-linkedin/static/media/education1.36f51dbc09716ca5d1ff.png",
@@ -22,11 +22,11 @@
     "static/media/rss.svg": "/designtocode-linkedin/static/media/rss.8f1a822c7940b3d1b137312fc4a9564e.svg",
     "static/media/briefcase.svg": "/designtocode-linkedin/static/media/briefcase.afdffdf924790681f78b54013b30d4c9.svg",
     "static/media/message-square.svg": "/designtocode-linkedin/static/media/message-square.c7ca806ce4b8ee823dee176a1509b834.svg",
-    "main.dd0f35ed.css.map": "/designtocode-linkedin/static/css/main.dd0f35ed.css.map",
+    "main.517db668.css.map": "/designtocode-linkedin/static/css/main.517db668.css.map",
     "main.6026d961.js.map": "/designtocode-linkedin/static/js/main.6026d961.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd0f35ed.css",
+    "static/css/main.517db668.css",
     "static/js/main.6026d961.js"
   ]
 }
