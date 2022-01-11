@@ -1,5 +1,5 @@
 # designtocode-linkedin
-It is coded pixel perfect, responsive. Completed in 3 days with React and CSS Modules for a case study provided from Baykar Technologies.
+It is an alternative look for LinkedIn, coded pixel perfect and responsive. Completed in 3 days with React and CSS Modules for a case study provided from Baykar Technologies.
 Data passed through components with props.
 
 Design File : https://www.figma.com/file/IeqgNTYTFMemBSarQnAN8x/LinkedIn-Redesign-Case?node-id=0%3A1
